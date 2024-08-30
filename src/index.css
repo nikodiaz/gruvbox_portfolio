@@ -1,0 +1,52 @@
+:root {
+  font-family: "Curier New", Curier, monospace;
+  background: var(--dark);
+  color: var(--light);
+  --light: #ebdbb2;
+  --dark: #282828;
+  --orange: #d65d0e;
+  --red: #cc241d;
+  --green: #98971a;
+  --yellow: #d79921;
+  --blue: #458588;
+  --purple: #b16286;
+  --aqua: #689d6a;
+  --gray: #665c54;
+  --section-title-size: 2rem;
+  --section-title-weight: bold;
+}
+
+.sectionTitle {
+  font-size: var(--section-title-size);
+  font-weight: var(--section-title-weight);
+  line-height: var(--section-title-size);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--dark);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
