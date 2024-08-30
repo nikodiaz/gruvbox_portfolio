@@ -1,0 +1,7 @@
+@import "../../index.css";
+
+.content {
+  background: var(--gray);
+  width: 700px;
+  height: 400px;
+}
