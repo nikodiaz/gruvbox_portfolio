@@ -1,0 +1,42 @@
+@import '../../index.css';
+
+
+/* themeButton.module.css */
+.container {
+  position: fixed;
+  top: 5rem;
+  /* top-20 */
+  right: 1rem;
+  /* right-4 */
+  display: flex;
+  gap: 0.5rem;
+  /* gap-2 */
+}
+
+.iconButton {
+  padding: 0.5rem;
+  /* p-2 */
+  border-radius: 50%;
+  /* rounded-full */
+  transition: background-color 0.3s ease;
+}
+
+.dark {
+  background-color: #504945;
+  /* bg-[#504945] */
+}
+
+.dark:hover {
+  background-color: #665c54;
+  /* hover:bg-[#665c54] */
+}
+
+.light {
+  background-color: #d5c4a1;
+  /* bg-[#d5c4a1] */
+}
+
+.light:hover {
+  background-color: #bdae93;
+  /* hover:bg-[#bdae93] */
+}

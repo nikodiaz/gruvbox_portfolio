@@ -16,6 +16,10 @@
   --section-title-weight: bold;
 }
 
+* {
+  outline: none;
+}
+
 .sectionTitle {
   font-size: var(--section-title-size);
   font-weight: var(--section-title-weight);

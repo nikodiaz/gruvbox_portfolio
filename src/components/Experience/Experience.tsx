@@ -24,31 +24,25 @@ const experiences = [
 
 interface Props {
   theme: 'light' | 'dark'
-  activeSection: string
-  setActiveSection: (section: string) => void
 }
 
-const Experience: FC<Props> = ({ activeSection = 'experience', setActiveSection, theme = 'dark' }) => {
+const Experience: FC<Props> = ({ theme = 'dark' }) => {
   return (
     <section className={styles.container}>
       <h2
-        className={`${styles.sectionTitle} ${activeSection === 'experience' ? 'text-[#8ec07c]' : ''}`}
-        onClick={() => setActiveSection('experience')}
-      >
+        className={`${styles.sectionTitle}`} >
         Experience
       </h2>
       <>
-        {activeSection === 'experience' && (
-          <div style={{ marginTop: '1rem' }}>
-            {experiences.map((exp, index) => (
-              <div key={index} className={`${styles.card} ${theme === 'dark' ? styles.dark : styles.light}`}>
-                <h3 className={styles.title}>{exp.title}</h3>
-                <h4 className={styles.companyTime}>{exp.company} | {exp.time}</h4>
-                <p className={styles.description}>{exp.description}</p>
-              </div>
-            ))}
-          </div>
-        )}
+        <div style={{ marginTop: '1rem' }}>
+          {experiences.map((exp, index) => (
+            <div key={index} className={`${styles.card} ${theme === 'dark' ? styles.dark : styles.light}`}>
+              <h3 className={styles.title}>{exp.title}</h3>
+              <h4 className={styles.companyTime}>{exp.company} | {exp.time}</h4>
+              <p className={styles.description}>{exp.description}</p>
+            </div>
+          ))}
+        </div>
       </>
     </section >
   )
