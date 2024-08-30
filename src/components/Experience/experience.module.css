@@ -1,0 +1,42 @@
+@import '../../index.css';
+
+.card {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #fabd2f;
+}
+
+.companyTime {
+  font-size: 1rem;
+  color: #83a598;
+}
+
+.description {
+  font-size: 0.875rem;
+  color: #ebdbb2;
+}
+
+.light {
+  background-color: #ebdbb2;
+}
+
+.dark {
+  background-color: #3c3836;
+}
+
+@media (min-width: 640px) {
+  .card {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    max-width: 768px;
+  }
+}
