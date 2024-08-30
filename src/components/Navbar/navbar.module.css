@@ -1,0 +1,119 @@
+@import "../../index.css";
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  transition: background-color 0.3s ease;
+}
+
+.light {
+  background-color: #ebdbb2;
+}
+
+.dark {
+  background-color: #3c3836;
+}
+
+.containerNav {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.navbarInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  padding: 0 1rem;
+}
+
+.brandName {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #b8bb26;
+}
+
+.desktopMenu {
+  display: none;
+}
+
+.navLinks {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.navLink {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #a89984;
+  background-color: transparent;
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navLink:hover,
+.activeLink {
+  background-color: #504945;
+  color: #b8bb26;
+}
+
+.mobileMenuButton {
+  display: flex;
+}
+
+.menuIcon {
+  display: inline-flex;
+  justify-content: center;
+  padding: 0.5rem;
+  color: #a89984;
+  background-color: transparent;
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menuIcon:hover {
+  background-color: #504945;
+  color: #b8bb26;
+}
+
+.mobileMenu {
+  display: block;
+}
+
+.mobileMenuLinks {
+  padding: 1rem;
+  background-color: inherit;
+}
+
+.mobileNavLink {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #a89984;
+  background-color: transparent;
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.mobileNavLink:hover,
+.activeMobileLink {
+  background-color: #504945;
+  color: #b8bb26;
+}
+
+@media (min-width: 768px) {
+  .desktopMenu {
+    display: block;
+  }
+
+  .mobileMenuButton {
+    display: none;
+  }
+}
