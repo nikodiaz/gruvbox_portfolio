@@ -12,6 +12,75 @@
   background: var(--aqua);
 }
 
+.containerButtons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin-top: 1rem;
+
+  a {
+    text-decoration: none;
+    display: inline-flex;
+    gap: .5rem;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    transition: all .1s ease-in-out;
+    color: #fbf1c7;
+  }
+
+  .linkedin {
+    background: #458588;
+
+    &:hover {
+      background: #076678;
+
+    }
+  }
+
+  .github {
+    background: #b16286;
+
+    &:hover {
+      background: #8f3f71;
+    }
+  }
+
+  .cv {
+    background: #98971a;
+
+    &:hover {
+      background: #79740e;
+    }
+  }
+}
+
+.light {
+  .linkedin {
+    background: #076678;
+
+    &:hover {
+      background: #458588;
+    }
+  }
+
+  .github {
+    background: #8f3f71;
+
+    &:hover {
+      background: #b16286;
+    }
+  }
+
+  .cv {
+    background: #79740e;
+
+    &:hover {
+      background: #98971a;
+    }
+  }
+}
+
 @media (min-width: 640px) {
   .title {
     font-size: 4rem;

@@ -1,7 +1,7 @@
 import { FC } from "react"
 import styles from './experience.module.css'
 
-const experiences = [
+const experiencesEnglish = [
   {
     time: "2023",
     title: "Senior Full Stack Developer",
@@ -22,16 +22,40 @@ const experiences = [
   }
 ]
 
+const experiencesSpanish = [
+  {
+    time: "2023",
+    title: "Desarrollador Full Stack Senior",
+    company: "TechCorp Inc.",
+    description: "Lideró el desarrollo de aplicaciones web escalables usando React y Node.js. Implementó pipelines de CI/CD y mentoreó a desarrolladores junior."
+  },
+  {
+    time: "2021",
+    title: "Desarrollador Full Stack",
+    company: "InnoSoft Solutions",
+    description: "Desarrolló y mantuvo múltiples proyectos para clientes. Trabajó con React, Express y MongoDB para crear aplicaciones web robustas."
+  },
+  {
+    time: "2019",
+    title: "Desarrollador Web Junior",
+    company: "WebWizards LLC",
+    description: "Comenzó su carrera en el desarrollo web. Asistió en el desarrollo front-end usando HTML, CSS y JavaScript. Aprendió React y Node.js."
+  }
+];
+
+
 interface Props {
   theme: 'light' | 'dark'
+  language: 'es' | 'en'
 }
 
-const Experience: FC<Props> = ({ theme }) => {
+const Experience: FC<Props> = ({ theme, language }) => {
+  const experiences = language === 'es' ? experiencesSpanish : experiencesEnglish;
   return (
     <section id="experience" className={styles.container}>
       <h2
         className={`${styles.sectionTitle}`} >
-        Experience
+        Experienc{language === 'es' ? 'ia' : 'e'}
       </h2>
       <>
         <div style={{ marginTop: '1rem' }}>

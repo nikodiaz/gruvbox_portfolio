@@ -1,21 +1,21 @@
 import { FC, useState } from "react";
 import styles from "./navbar.module.css";
-import { Briefcase, Code, FolderOpen, Mail, Menu } from "lucide-react";
+import { Briefcase, FolderOpen, Home, Menu } from "lucide-react";
 
 interface Props {
   theme: 'dark' | 'light'
+  language: 'es' | 'en'
 }
 
-const Navbar: FC<Props> = ({ theme }) => {
+const Navbar: FC<Props> = ({ theme, language }) => {
   const [activeLink, setActiveLink] = useState<number>(0);
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
 
   const listOptions = [
-    { name: 'Home', icon: Briefcase, section: 'home' },
-    { name: 'Experience', icon: Code, section: 'experience' },
-    { name: 'Projects', icon: FolderOpen, section: 'projects' },
-  ];
-
+    { name: language === 'en' ? 'Home' : 'Inicio', icon: Home, section: 'home' },
+    { name: language === 'en' ? 'Experience' : 'Experiencia', icon: Briefcase, section: 'experience' },
+    { name: language === 'en' ? 'Projects' : 'Proyectos', icon: FolderOpen, section: 'projects' },
+  ]
   const handleNavigation = (index: number, section: string) => {
     setActiveLink(index);
     document.getElementById(section)?.scrollIntoView({

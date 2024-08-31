@@ -1,13 +1,28 @@
+import { FC } from "react";
 import styles from "./home.module.css";
+import SocialButtons from "./SocialButtons";
 
-const Home = ({ theme }: { theme: 'dark' | 'light' }) => {
+interface Props {
+  theme: 'dark' | 'light'
+  language: 'es' | 'en'
+}
+
+
+
+const Home: FC<Props> = ({ theme, language }) => {
+
+  const homeText = {
+    title: language === 'es' ? "Soy Nicolás Díaz" : "I'm Nicolás Díaz",
+    subtitle: language === 'es' ? "Desarrollador front end" : "Front end developer"
+  }
+
   return (
     <section id="home" className={`${styles.container} ${theme === 'dark' ? styles.dark : styles.light}`}>
-      <h1 className={styles.title}>I'm Nicolás Díaz</h1>
+      <h1 className={styles.title}>{homeText.title}</h1>
       <h2 className={styles.subtitle}>
-        Front end developer 🖥️{`${window.innerWidth > 640 ? ' / Linux Cultist 🐧 / Geek 🎮'
-          : ''}`}
+        {homeText.subtitle} 🖥️
       </h2>
+      <SocialButtons language={language} />
     </section>
   );
 };
