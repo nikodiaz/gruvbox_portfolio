@@ -8,7 +8,6 @@
 .title {
   font-size: 1.25rem;
   font-weight: bold;
-  color: #fabd2f;
 }
 
 .companyTime {
@@ -18,15 +17,28 @@
 
 .description {
   font-size: 0.875rem;
-  color: #ebdbb2;
 }
 
 .light {
   background-color: #ebdbb2;
+  color: #3c3836;
+
+  .title {
+    color: #af3a03;
+  }
+
+  .companyTime {
+    color: #076678;
+  }
 }
 
 .dark {
   background-color: #3c3836;
+  color: #ebdbb2;
+
+  .title {
+    color: #fabd2f;
+  }
 }
 
 @media (min-width: 640px) {

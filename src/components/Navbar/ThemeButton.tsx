@@ -10,7 +10,7 @@ interface Props {
 
 const ThemeButton: FC<Props> = ({ theme, toggleTheme }) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.containerControl}>
       <a
         href="https://github.com/nikodiaz"
         target="_blank"

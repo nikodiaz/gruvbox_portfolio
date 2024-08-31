@@ -11,6 +11,20 @@
 
 .light {
   background-color: #ebdbb2;
+
+  .brandName {
+    color: #af3a03;
+  }
+
+  .navLink {
+    color: #3c3836;
+  }
+
+  .navLink:hover,
+  .activeLink {
+    background-color: var(--light);
+    color: #076678;
+  }
 }
 
 .dark {

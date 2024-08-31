@@ -21,7 +21,6 @@
 .projectTitle {
   font-size: 1.25rem;
   font-weight: bold;
-  color: #fabd2f;
   margin-bottom: 0.5rem;
 }
 
@@ -74,16 +73,29 @@
 
 .light {
   background-color: #ebdbb2;
+
+  .projectTitle {
+    color: #af3a03;
+  }
+
+  .lightBadge {
+    background-color: #d5c4a1;
+  }
+
+  .projectLink {
+    color: #076678;
+  }
 }
 
 .dark {
   background-color: #3c3836;
-}
 
-.lightBadge {
-  background-color: #d5c4a1;
-}
+  .projectTitle {
+    color: #fabd2f;
+  }
 
-.darkBadge {
-  background-color: #504945;
+  .darkBadge {
+    background-color: #504945;
+  }
+
 }

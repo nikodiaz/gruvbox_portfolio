@@ -6,7 +6,7 @@ interface Props {
   theme: 'dark' | 'light'
 }
 
-const Navbar: FC<Props> = ({ theme = 'dark' }) => {
+const Navbar: FC<Props> = ({ theme }) => {
   const [activeLink, setActiveLink] = useState<number>(0);
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
 

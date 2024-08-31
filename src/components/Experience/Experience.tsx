@@ -26,7 +26,7 @@ interface Props {
   theme: 'light' | 'dark'
 }
 
-const Experience: FC<Props> = ({ theme = 'dark' }) => {
+const Experience: FC<Props> = ({ theme }) => {
   return (
     <section className={styles.container}>
       <h2

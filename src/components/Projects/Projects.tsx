@@ -34,7 +34,7 @@ export interface Project {
   link: string
 }
 
-const Projects = ({ theme = 'dark' }) => {
+const Projects = ({ theme }: { theme: 'dark' | 'light' }) => {
   return (
     <section className={styles.container}>
       <h2 className={styles.sectionTitle}>Projects</h2>

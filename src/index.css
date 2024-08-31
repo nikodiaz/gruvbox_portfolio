@@ -1,8 +1,5 @@
 :root {
-  font-family: "Curier New", Curier, monospace;
-  background: var(--dark);
-  color: var(--light);
-  --light: #ebdbb2;
+  --light: #fbf1c7;
   --dark: #282828;
   --orange: #d65d0e;
   --red: #cc241d;
@@ -14,10 +11,25 @@
   --gray: #665c54;
   --section-title-size: 2rem;
   --section-title-weight: bold;
+  --background-color: var(--dark);
+  --text-color: var(--light);
+  font-family: "Curier New", Curier, monospace;
+  background: var(--background-color);
+  color: var(--text-color);
 }
 
 * {
   outline: none;
+}
+
+body.dark-theme {
+  background: var(--dark);
+  color: var(--light);
+}
+
+body.light-theme {
+  background: var(--light);
+  color: #3c3836;
 }
 
 .sectionTitle {
@@ -32,7 +44,6 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: var(--dark);
   margin: 0 auto;
   padding: 0 1rem;
 }
