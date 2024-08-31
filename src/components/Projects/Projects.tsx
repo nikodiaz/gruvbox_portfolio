@@ -36,7 +36,7 @@ export interface Project {
 
 const Projects = ({ theme }: { theme: 'dark' | 'light' }) => {
   return (
-    <section className={styles.container}>
+    <section id='projects' className={styles.container}>
       <h2 className={styles.sectionTitle}>Projects</h2>
       <div className={styles.projectsGrid}>
         {projects.map((project, index) => (

@@ -11,10 +11,19 @@ const Navbar: FC<Props> = ({ theme }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
 
   const listOptions = [
-    { name: 'Experience', icon: Briefcase, section: 'experience' },
-    { name: 'Skills', icon: Code, section: 'skills' },
+    { name: 'Home', icon: Briefcase, section: 'home' },
+    { name: 'Experience', icon: Code, section: 'experience' },
     { name: 'Projects', icon: FolderOpen, section: 'projects' },
-    { name: 'Contact', icon: Mail, section: 'contact' },];
+  ];
+
+  const handleNavigation = (index: number, section: string) => {
+    setActiveLink(index);
+    document.getElementById(section)?.scrollIntoView({
+      behavior: 'smooth',
+    });
+    setMobileMenuOpen(false);
+  };
+
   return (
     <nav className={`${styles.navbar} ${theme === 'dark' ? styles.dark : styles.light}`}>
       <div className={styles.containerNav}>
@@ -27,7 +36,7 @@ const Navbar: FC<Props> = ({ theme }) => {
               {listOptions.map((item, index) => (
                 <button
                   key={item.name}
-                  onClick={() => setActiveLink(index)}
+                  onClick={() => handleNavigation(index, item.section)}
                   className={`${styles.navLink} ${activeLink === index ? styles.activeLink : ''}`}
                 >
                   {item.name}
@@ -53,8 +62,7 @@ const Navbar: FC<Props> = ({ theme }) => {
               <button
                 key={item.name}
                 onClick={() => {
-                  setActiveLink(index);
-                  setMobileMenuOpen(false);
+                  handleNavigation(index, item.section)
                 }}
                 className={`${styles.mobileNavLink} ${activeLink === index ? styles.activeMobileLink : ''}`}              >
                 <item.icon className="inline-block mr-2" size={18} />

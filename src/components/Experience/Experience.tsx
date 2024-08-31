@@ -28,7 +28,7 @@ interface Props {
 
 const Experience: FC<Props> = ({ theme }) => {
   return (
-    <section className={styles.container}>
+    <section id="experience" className={styles.container}>
       <h2
         className={`${styles.sectionTitle}`} >
         Experience
