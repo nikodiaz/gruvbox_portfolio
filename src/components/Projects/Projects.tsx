@@ -6,7 +6,7 @@ const projectsEnglish = [
   {
     title: "URL Shortener",
     description: "Simple URL shortener that allows you to shorten long URLs and redirect to the original URL using the generated shortlink.",
-    image: "https://private-user-images.githubusercontent.com/20620395/364559165-052869c2-30ba-4be8-8fd0-7974a7fed162.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjU2NTE5NTcsIm5iZiI6MTcyNTY1MTY1NywicGF0aCI6Ii8yMDYyMDM5NS8zNjQ1NTkxNjUtMDUyODY5YzItMzBiYS00YmU4LThmZDAtNzk3NGE3ZmVkMTYyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTA2VDE5NDA1N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc5MWM2ZmVmNWIwMGQzY2E1NmU2NjVlOWQ1N2I5M2NiMjIwYTQ1ZGQ0YmMzOWE5MTRhYzE3ODYyNjhhY2I5MmYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.nsIZWyQWljcFgqd6QiAHZ7lR8icuA0Witx3EZs7qwKA",
+    image: "https://github.com/nikodiaz/url-shortener-ui/blob/main/public/screenshot.png",
     techStack: ["TypeScript", "React", "Node", "TailwindCSS", "MongoDB", "Express"],
     link: "https://github.com/nikodiaz/url-shortener-ui",
     live: ""
@@ -14,7 +14,7 @@ const projectsEnglish = [
   {
     title: "Barapack",
     description: "Freelance landing page project for Barapack, a leading freight and parcel transport company.",
-    image: "https://private-user-images.githubusercontent.com/20620395/365297455-061eabcf-f208-4946-9e98-3f22ea51efe1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjU2NTY0NzcsIm5iZiI6MTcyNTY1NjE3NywicGF0aCI6Ii8yMDYyMDM5NS8zNjUyOTc0NTUtMDYxZWFiY2YtZjIwOC00OTQ2LTllOTgtM2YyMmVhNTFlZmUxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTA2VDIwNTYxN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTlhZGQ0NGRkNjUyZTZmNTkxZDhkODhkMGJhM2Y3NTAwZTU3ZTFiYjU1NWE1ODVhZTljNGE2ODE4NTk4YzY2NzcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.9VVjELBXLnX2kx98MBsjNLtt0btfnwXpDymOqW4Mc8A",
+    image: "https://github.com/nikodiaz/barapack_landing/blob/main/public/screenshot.png",
     techStack: ["TypeScript", "React", "TailwindCSS", "Leaflet", "EmailJS"],
     link: "https://github.com/nikodiaz/barapack_landing",
     live: "https://barapack.com.ar/"
@@ -33,7 +33,7 @@ const projectsSpanish = [
   {
     title: "Acortador de URLs",
     description: "Acortador de URLs simple que permite acortar URLs largas y redirigir a la URL original utilizando el enlace corto generado.",
-    image: "https://private-user-images.githubusercontent.com/20620395/364559165-052869c2-30ba-4be8-8fd0-7974a7fed162.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjU2NTE5NTcsIm5iZiI6MTcyNTY1MTY1NywicGF0aCI6Ii8yMDYyMDM5NS8zNjQ1NTkxNjUtMDUyODY5YzItMzBiYS00YmU4LThmZDAtNzk3NGE3ZmVkMTYyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTA2VDE5NDA1N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc5MWM2ZmVmNWIwMGQzY2E1NmU2NjVlOWQ1N2I5M2NiMjIwYTQ1ZGQ0YmMzOWE5MTRhYzE3ODYyNjhhY2I5MmYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.nsIZWyQWljcFgqd6QiAHZ7lR8icuA0Witx3EZs7qwKA",
+    image: "https://github.com/nikodiaz/url-shortener-ui/blob/main/public/screenshot.png",
     techStack: ["TypeScript", "React", "Node", "TailwindCSS", "MongoDB", "Express"],
     link: "https://github.com/nikodiaz/url-shortener-ui",
     live: ""
@@ -41,7 +41,7 @@ const projectsSpanish = [
   {
     title: "Barapack",
     description: "Proyecto de landing page freelance para Barapack, empresa líder en transporte de mercancías y paquetería.",
-    image: "https://private-user-images.githubusercontent.com/20620395/365297455-061eabcf-f208-4946-9e98-3f22ea51efe1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjU2NTY0NzcsIm5iZiI6MTcyNTY1NjE3NywicGF0aCI6Ii8yMDYyMDM5NS8zNjUyOTc0NTUtMDYxZWFiY2YtZjIwOC00OTQ2LTllOTgtM2YyMmVhNTFlZmUxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTA2VDIwNTYxN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTlhZGQ0NGRkNjUyZTZmNTkxZDhkODhkMGJhM2Y3NTAwZTU3ZTFiYjU1NWE1ODVhZTljNGE2ODE4NTk4YzY2NzcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.9VVjELBXLnX2kx98MBsjNLtt0btfnwXpDymOqW4Mc8A",
+    image: "https://github.com/nikodiaz/barapack_landing/blob/main/public/screenshot.png",
     techStack: ["TypeScript", "React", "TailwindCSS", "Leaflet", "EmailJS"],
     link: "https://github.com/nikodiaz/barapack_landing",
     live: "https://barapack.com.ar/"
