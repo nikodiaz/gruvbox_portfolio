@@ -1,30 +1,14 @@
-# React + TypeScript + Vite
+# Personal Portfolio - Nicolás Díaz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene el código fuente de mi portafolio personal, donde destaco mis proyectos, experiencia profesional, y enlaces a mis redes sociales.
 
-Currently, two official plugins are available:
+![image](https://github.com/user-attachments/assets/02226800-f7e8-4303-8ef0-e9774cbac9b6)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📄 Descripción
 
-## Expanding the ESLint configuration
+Este portafolio está construido con **React** y **CSS Modules**. El propósito del mismo es proporcionar una representación visual de mi carrera profesional y mis habilidades como desarrollador. También incluye temas oscuros y claros, y tiene soporte para múltiples idiomas (español e inglés).
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🚀 Tecnologías Utilizadas
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **React**: Librería principal para construir la interfaz de usuario.
+- **CSS Modules**: Para manejar estilos de manera aislada y modular.
