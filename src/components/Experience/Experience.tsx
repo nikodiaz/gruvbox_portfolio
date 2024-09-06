@@ -3,43 +3,20 @@ import styles from './experience.module.css'
 
 const experiencesEnglish = [
   {
-    time: "2023",
-    title: "Senior Full Stack Developer",
-    company: "TechCorp Inc.",
-    description: "Led development of scalable web applications using React and Node.js. Implemented CI/CD pipelines and mentored junior developers."
-  },
-  {
-    time: "2021",
-    title: "Full Stack Developer",
-    company: "InnoSoft Solutions",
-    description: "Developed and maintained multiple client projects. Worked with React, Express, and MongoDB to create robust web applications."
-  },
-  {
-    time: "2019",
-    title: "Junior Web Developer",
-    company: "WebWizards LLC",
-    description: "Started career in web development. Assisted in front-end development using HTML, CSS, and JavaScript. Learned React and Node.js."
+    time: "2024 - Present",
+    title: "Front End Developer",
+    company: "Devocamp",
+    description: "Developed functional and attractive interfaces with ReactJS and Next.js. Implemented responsive designs and performed end-to-end testing with Cypress. Participated in team meetings and version control with Git and GitHub."
   }
+
 ]
 
 const experiencesSpanish = [
   {
-    time: "2023",
-    title: "Desarrollador Full Stack Senior",
-    company: "TechCorp Inc.",
-    description: "Lideró el desarrollo de aplicaciones web escalables usando React y Node.js. Implementó pipelines de CI/CD y mentoreó a desarrolladores junior."
-  },
-  {
-    time: "2021",
-    title: "Desarrollador Full Stack",
-    company: "InnoSoft Solutions",
-    description: "Desarrolló y mantuvo múltiples proyectos para clientes. Trabajó con React, Express y MongoDB para crear aplicaciones web robustas."
-  },
-  {
-    time: "2019",
-    title: "Desarrollador Web Junior",
-    company: "WebWizards LLC",
-    description: "Comenzó su carrera en el desarrollo web. Asistió en el desarrollo front-end usando HTML, CSS y JavaScript. Aprendió React y Node.js."
+    time: "2024 - Actualidad",
+    title: "Desarrollador Front End",
+    company: "Devocamp",
+    description: "Desarrollo de interfaces atractivas y funcionales con ReactJS y Next.js. Implementación de diseños responsivos y pruebas end-to-end con Cypress. Participación en reuniones de equipo y control de versiones con Git y GitHub."
   }
 ];
 

@@ -21,14 +21,27 @@ const ProjectCard: FC<Props> = ({ project, theme }) => {
           </span>
         ))}
       </div>
-      <a
-        href={project.link}
-        target="_blank"
-        rel="noopener noreferrer"
-        className={styles.projectLink}
-      >
-        View Project <ExternalLink className="ml-1 w-4 h-4" />
-      </a>
+      <div className={styles.groupLinks}>
+        <a
+          href={project.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.projectLink}
+        >
+          Github <ExternalLink className={styles.externalLinkIcon} />
+        </a>
+        {project.live && (
+          <a
+            href={project.live}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.projectLink}
+          >
+            Live <ExternalLink className={styles.externalLinkIcon} />
+          </a>
+
+        )}
+      </div>
     </div>
 
   )
