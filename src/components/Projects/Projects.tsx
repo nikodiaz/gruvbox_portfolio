@@ -6,7 +6,7 @@ const projectsEnglish = [
   {
     title: "URL Shortener",
     description: "Simple URL shortener that allows you to shorten long URLs and redirect to the original URL using the generated shortlink.",
-    image: "https://github.com/nikodiaz/url-shortener-ui/blob/main/public/screenshot.png",
+    image: "https://github.com/nikodiaz/url-shortener-ui/raw/main/public/screenshot.png",
     techStack: ["TypeScript", "React", "Node", "TailwindCSS", "MongoDB", "Express"],
     link: "https://github.com/nikodiaz/url-shortener-ui",
     live: ""
@@ -14,7 +14,7 @@ const projectsEnglish = [
   {
     title: "Barapack",
     description: "Freelance landing page project for Barapack, a leading freight and parcel transport company.",
-    image: "https://github.com/nikodiaz/barapack_landing/blob/main/public/screenshot.png",
+    image: "https://github.com/nikodiaz/barapack_landing/raw/main/public/screenshot.png",
     techStack: ["TypeScript", "React", "TailwindCSS", "Leaflet", "EmailJS"],
     link: "https://github.com/nikodiaz/barapack_landing",
     live: "https://barapack.com.ar/"
@@ -33,7 +33,7 @@ const projectsSpanish = [
   {
     title: "Acortador de URLs",
     description: "Acortador de URLs simple que permite acortar URLs largas y redirigir a la URL original utilizando el enlace corto generado.",
-    image: "https://github.com/nikodiaz/url-shortener-ui/blob/main/public/screenshot.png",
+    image: "https://github.com/nikodiaz/url-shortener-ui/raw/main/public/screenshot.png",
     techStack: ["TypeScript", "React", "Node", "TailwindCSS", "MongoDB", "Express"],
     link: "https://github.com/nikodiaz/url-shortener-ui",
     live: ""
@@ -41,7 +41,7 @@ const projectsSpanish = [
   {
     title: "Barapack",
     description: "Proyecto de landing page freelance para Barapack, empresa líder en transporte de mercancías y paquetería.",
-    image: "https://github.com/nikodiaz/barapack_landing/blob/main/public/screenshot.png",
+    image: "https://github.com/nikodiaz/barapack_landing/raw/main/public/screenshot.png",
     techStack: ["TypeScript", "React", "TailwindCSS", "Leaflet", "EmailJS"],
     link: "https://github.com/nikodiaz/barapack_landing",
     live: "https://barapack.com.ar/"
