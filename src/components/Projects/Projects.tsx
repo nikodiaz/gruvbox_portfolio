@@ -9,7 +9,7 @@ const projectsEnglish = [
     image: "https://github.com/nikodiaz/url-shortener-ui/raw/main/public/screenshot.png",
     techStack: ["TypeScript", "React", "Node", "TailwindCSS", "MongoDB", "Express"],
     link: "https://github.com/nikodiaz/url-shortener-ui",
-    live: ""
+    live: "https://url-shortener-5xct0cnzz-nikodiazs-projects.vercel.app/"
   },
   {
     title: "Barapack",
@@ -36,7 +36,7 @@ const projectsSpanish = [
     image: "https://github.com/nikodiaz/url-shortener-ui/raw/main/public/screenshot.png",
     techStack: ["TypeScript", "React", "Node", "TailwindCSS", "MongoDB", "Express"],
     link: "https://github.com/nikodiaz/url-shortener-ui",
-    live: ""
+    live: "https://url-shortener-5xct0cnzz-nikodiazs-projects.vercel.app/"
   },
   {
     title: "Barapack",
