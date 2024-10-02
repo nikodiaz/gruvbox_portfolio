@@ -1,6 +1,6 @@
 import { FC, useState } from "react";
 import styles from "./navbar.module.css";
-import { Briefcase, FolderOpen, Home, Menu, Section, User } from "lucide-react";
+import { Briefcase, FolderOpen, Home, Menu, User } from "lucide-react";
 
 interface Props {
   theme: 'dark' | 'light'
