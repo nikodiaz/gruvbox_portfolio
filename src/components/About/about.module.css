@@ -1,7 +1,44 @@
 @import "../../index.css";
 
-.content {
-  background: var(--gray);
-  width: 700px;
-  height: 400px;
+.container {
+  padding: 0 1rem;
+}
+
+.dark {
+  .content {
+    padding: 0 1rem;
+    background-color: #3c3836;
+    color: #ebdbb2;
+  }
+}
+
+.light {
+  .content {
+    background-color: #ebdbb2;
+    color: #3c3836;
+  }
+}
+
+.ctaContainer {
+  padding: 1rem 0;
+}
+
+.cta {
+  margin: 0 auto;
+  padding: .5rem 1rem;
+  width: fit-content;
+  font-weight: 800;
+  background: var(--aqua);
+}
+
+@media (min-width: 640px) {
+  .content {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .content {
+    max-width: 768px;
+  }
 }

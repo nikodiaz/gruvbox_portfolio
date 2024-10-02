@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import ThemeButton from "./components/Navbar/ThemeButton";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
+import About from "./components/About/About";
 
 function App() {
   const [theme, setTheme] = useState<'dark' | 'light'>('dark')
@@ -31,6 +32,7 @@ function App() {
         <Home theme={theme} language={language} />
         <Experience theme={theme} language={language} />
         <Projects theme={theme} language={language} />
+        <About theme={theme} language={language} />
       </div>
       <Footer />
     </main>

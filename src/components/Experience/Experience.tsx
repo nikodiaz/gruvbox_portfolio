@@ -27,7 +27,7 @@ interface Props {
 }
 
 const Experience: FC<Props> = ({ theme, language }) => {
-  const experiences = language === 'es' ? experiencesSpanish : experiencesEnglish;
+  const experiences = language === 'es' ? experiencesSpanish : experiencesEnglish
   return (
     <section id="experience" className={styles.container}>
       <h2

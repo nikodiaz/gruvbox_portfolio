@@ -1,6 +1,6 @@
 import { FC, useState } from "react";
 import styles from "./navbar.module.css";
-import { Briefcase, FolderOpen, Home, Menu } from "lucide-react";
+import { Briefcase, FolderOpen, Home, Menu, Section, User } from "lucide-react";
 
 interface Props {
   theme: 'dark' | 'light'
@@ -15,6 +15,7 @@ const Navbar: FC<Props> = ({ theme, language }) => {
     { name: language === 'en' ? 'Home' : 'Inicio', icon: Home, section: 'home' },
     { name: language === 'en' ? 'Experience' : 'Experiencia', icon: Briefcase, section: 'experience' },
     { name: language === 'en' ? 'Projects' : 'Proyectos', icon: FolderOpen, section: 'projects' },
+    { name: language === 'en' ? 'About Me' : 'Sobre mí', icon: User, section: 'about' }
   ]
   const handleNavigation = (index: number, section: string) => {
     setActiveLink(index);
