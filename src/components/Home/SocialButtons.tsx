@@ -16,7 +16,7 @@ const SocialButtons = ({ language }: { language: 'es' | 'en' }) => {
         rel='noopener noreferrer'>
         <Github size={18} />Github
       </a>
-      <a href='/docs/Nicolás-Díaz-Español.pdf'
+      <a href={language === 'es' ? '/docs/Nicolás-Díaz-CV-Español.pdf' : '/docs/Nicolás-Díaz-CV-English.pdf'}
         className={styles.cv}
         download
         rel='noopener noreferrer'>
