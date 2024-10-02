@@ -12,7 +12,7 @@ interface Props {
 const Home: FC<Props> = ({ theme, language }) => {
 
   const homeText = {
-    subtitle: language === 'es' ? "Desarrollador front end" : "Front end developer"
+    subtitle: language === 'es' ? "Desarrollador web" : "Web developer"
   }
 
   return (
